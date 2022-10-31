@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="https://junjut.github.io/account/dashboard/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://junjut.github.io/account/dashboard/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://junjut.github.io/account/dashboard/css/style.css">
+    <script type="text/javascript" src="https://junjut.github.io/account/dashboard/js/script.js" ></script>
+    <script type="text/javascript" src="https://junjut.github.io/account/dashboard/js/custom.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+<!-- div used to make the body blur -->
+    <div class="overlay" id="overlay"></div>
+
+    <section class="head index-part-1">
+        <div class="head-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6">
+                    <a><img class="img-responsive" src="https://junjut.github.io/account/dashboard/img/logo.png"></a>
+                </div>
+                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
+                    <form name="logoutform" action="" method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="log_out" value="">
+                    </form>
+                    <div id="mySidenav" class="sidenav text-center">
+                        <a href="" class="closebtn" id="closebutton">&times;</a><br>
+                        <a href="" id="logoutbutton">Log out</a><hr>
+                    </div>
+                    <div class="main" id="main">
+                      <a href="" id="openbutton">MENU &#9776;</a>
+                    </div>
+                </div>
+              </div>
+              <hr>
+          </div>
+          </div>
+        </div>
+    </section>
+ 
+</body>
+</html>
+

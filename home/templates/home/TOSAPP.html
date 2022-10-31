@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://junjut.github.io/home/TOSAPP/assets/apple-icon-180x180.png">
+
+  <link href="" rel="stylesheet">
+
+  <script src="https://junjut.github.io/home/TOSAPP/custom.js"></script>
+
+  <title>Junjut</title>
+
+<link href="https://junjut.github.io/home/TOSAPP/main.550dcf66.css" rel="stylesheet"></head>
+
+<body> <!-- Add your content of header -->
+
+
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>JUNJUT/h1>
+          <p>By continuing, I acknowledge that I have read, and do hereby accept the <a href="{% url 'home:terms_of_service' %}">Terms of Service</a> and <a href="{% url 'home:privacy_policy' %}">Privacy Policy</a> as provided by Junjut.</p>
+          <br>
+          <form id="TOSAPP_form" action="{% url 'home:login' %}" method="POST">
+            {% csrf_token %}
+            <a href="" id="TOSAPP" class="btn btn-default btn-lg" title="">Continue</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
