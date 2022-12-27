@@ -28,3 +28,10 @@
 14. Create an account for the website administrator
 15. Give admin permissions to your account:
     1. python3 -c "from account.database import *; db_admin('email_address', True)"
+
+## Tech Stack
+
+![django-logo-negative 1d528e2cb5fb](https://user-images.githubusercontent.com/117030897/209620257-bc18241b-9ce7-4f70-bbb8-0b7aea1d73a0.png)
+![Python-logo-notext svg](https://user-images.githubusercontent.com/117030897/209620264-9a8f2df4-65b5-4cac-87ce-1d7044502bd4.png)
+![javascript-vs-html-vs-css-1024x683](https://user-images.githubusercontent.com/117030897/209620263-6d6f4658-40bb-43b1-9cd6-edebb54ecfc6.jpg)
+![Happy-User](https://user-images.githubusercontent.com/117030897/209620261-610a014b-cabf-4d35-9dec-3ac6b7e71c6a.png)
