@@ -1,6 +1,6 @@
-# Junjut
+# Django Web Application
 
-# Deployment to Heroku
+## Deployment to Heroku
 
 1. Create a new app on heroku : https://www.heroku.com/
 2. Under the Settings tab on heroku, set the following environment variables:
